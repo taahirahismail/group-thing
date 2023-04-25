@@ -36,11 +36,13 @@
 }
 
 .products {
+    padding: 50px;
+    text-align: center;
+    background-color: beige;
     display: flex;
+    margin: auto;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 30px;
-    background-color: beige;
 }
 
 .products h4 {
@@ -55,6 +57,33 @@
     border-style: dashed;
 }
 
+.products div {
+    padding: 10px;
+}
+
 .products img {
+    width: 500px;
     border-radius: 15px;
+}
+
+.footer {
+    background-color: antiquewhite;
+    color: rgb(192, 75, 95);
+    font-family: monospace;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.footer h6 {
+    font-size: 15px;
+}
+
+.footer .icons {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.footer img {
+    padding: 5px;
 }
